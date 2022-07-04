@@ -41,7 +41,8 @@ namespace iShopCore.Services.Services.Configs
 
         public Task<Company> UpdateAsync(CompanyConfigsDto companyConfigsDto)
         {
-            return _companyRepo.UpdateAsync(_mapper.Map<Company>(companyConfigsDto));
+            var company = _mapper.Map<Company>(companyConfigsDto);
+            return _companyRepo.UpdateAsync(company);
         }
     }
 }

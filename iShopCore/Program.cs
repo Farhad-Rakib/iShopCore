@@ -1,6 +1,12 @@
 using AutoMapper;
 using iShopCore.DbContexts;
-
+using iShopCore.Helpers;
+using iShopCore.Repositories.Interfaces;
+using iShopCore.Repositories.Interfaces.Configs;
+using iShopCore.Repositories.Repos;
+using iShopCore.Repositories.Repos.Configs;
+using iShopCore.Services.Interfaces.Configs;
+using iShopCore.Services.Services.Configs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +22,10 @@ var builder = WebApplication.CreateBuilder(args);
     // configure automapper with all automapper profiles from this assembly
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
-    builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+    IMapper mapper = AutoMapperConfig.RegisterMaps().CreateMapper();
+    builder.Services.AddSingleton(mapper);
+    builder.Services.AddAutoMapper(typeof(Program));
+    
    
     var devCorsPolicy = "devCorsPolicy";
     builder.Services.AddCors(options =>
@@ -31,9 +40,9 @@ var builder = WebApplication.CreateBuilder(args);
     //services.Configure<AppSettings>(builder.Configuration.GetSection("AppSecret"));
 
     // configure DI for application services
-    //services.AddScoped<IJwtUtils, JwtUtils>();
-    //services.AddScoped<IUserRepository, UserRepository>();
-    //services.AddScoped<IUserService, UserService>();
+    builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+    builder.Services.AddScoped<ICompanyConfigService, CompanyConfigService>();
+    builder.Services.AddScoped<ICompanyConfigsRepository, CompanyConfigsRepository>();
 }
 
 var app = builder.Build();

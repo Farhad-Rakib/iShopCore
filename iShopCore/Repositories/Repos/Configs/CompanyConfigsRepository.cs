@@ -59,14 +59,21 @@ namespace iShopCore.Repositories.Repos.Configs
         public async Task<Company> UpdateAsync(Company company)
         {
             var existing = await _baseRepository.FindBy(c => c.Id == company.Id).FirstOrDefaultAsync();
-            if(existing != null)
-            {
-                _baseRepository.Update(company);
-                _baseRepository.Save();
-                return company;
-            }
-            
-            return company;
+            if (existing == null)
+                throw new ArgumentException("Company is not exist");
+
+            existing.Id = company.Id;
+            existing.UpdatedDate = company.UpdatedDate;
+            existing.UpdatedBy = company.UpdatedBy;
+            existing.Logo = company.Logo;
+            existing.Name = company.Name;
+            existing.Location = company.Location;
+            existing.OwnersName = company.OwnersName;
+            existing.MobileNo = company.MobileNo;
+            existing.CompanyType = company.CompanyType;
+
+           _baseRepository.Update(existing);
+            return existing;
 
         }
     }
