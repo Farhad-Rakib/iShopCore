@@ -1,0 +1,92 @@
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\appsettings.Development.json
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\appsettings.json
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\iShopCore.exe
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\iShopCore.deps.json
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\iShopCore.runtimeconfig.json
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\iShopCore.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\iShopCore.pdb
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\AutoMapper.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\BCrypt.Net-Core.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\Humanizer.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\Npgsql.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Development\iShopCore\iShopCore\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.csproj.AssemblyReference.cache
+D:\Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.AssemblyInfoInputs.cache
+D:\Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.AssemblyInfo.cs
+D:\Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.csproj.CoreCompileInputs.cache
+D:\Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.MvcApplicationPartsAssemblyInfo.cs
+D:\Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.MvcApplicationPartsAssemblyInfo.cache
+D:\Development\iShopCore\iShopCore\obj\Debug\net6.0\staticwebassets.build.json
+D:\Development\iShopCore\iShopCore\obj\Debug\net6.0\staticwebassets.development.json
+D:\Development\iShopCore\iShopCore\obj\Debug\net6.0\scopedcss\bundle\iShopCore.styles.css
+D:\Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.csproj.CopyComplete
+D:\Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.dll
+D:\Development\iShopCore\iShopCore\obj\Debug\net6.0\refint\iShopCore.dll
+D:\Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.pdb
+D:\Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.genruntimeconfig.cache
+D:\Development\iShopCore\iShopCore\obj\Debug\net6.0\ref\iShopCore.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\appsettings.Development.json
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\appsettings.json
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\iShopCore.exe
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\iShopCore.deps.json
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\iShopCore.runtimeconfig.json
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\iShopCore.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\iShopCore.pdb
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\AutoMapper.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\BCrypt.Net-Core.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\Humanizer.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\Npgsql.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Personal Development\iShopCore\iShopCore\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Personal Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.csproj.AssemblyReference.cache
+D:\Personal Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.AssemblyInfoInputs.cache
+D:\Personal Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.AssemblyInfo.cs
+D:\Personal Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.csproj.CoreCompileInputs.cache
+D:\Personal Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.MvcApplicationPartsAssemblyInfo.cs
+D:\Personal Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.MvcApplicationPartsAssemblyInfo.cache
+D:\Personal Development\iShopCore\iShopCore\obj\Debug\net6.0\staticwebassets.build.json
+D:\Personal Development\iShopCore\iShopCore\obj\Debug\net6.0\staticwebassets.development.json
+D:\Personal Development\iShopCore\iShopCore\obj\Debug\net6.0\scopedcss\bundle\iShopCore.styles.css
+D:\Personal Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.csproj.CopyComplete
+D:\Personal Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.dll
+D:\Personal Development\iShopCore\iShopCore\obj\Debug\net6.0\refint\iShopCore.dll
+D:\Personal Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.pdb
+D:\Personal Development\iShopCore\iShopCore\obj\Debug\net6.0\iShopCore.genruntimeconfig.cache
+D:\Personal Development\iShopCore\iShopCore\obj\Debug\net6.0\ref\iShopCore.dll
