@@ -19,5 +19,6 @@ public class ApplicationDbContext : DbContext
     public DbSet<Company> Companies { get; set; }
     public DbSet<ProductSpec> ProductSpecs { get; set; }
     public DbSet<ProductSpecDetails> ProductSpecDetails { get; set; }
+    public DbSet<Discount> Discounts { get; set; }
 }
 
