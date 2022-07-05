@@ -10,7 +10,10 @@ namespace iShopCore.Helpers
         {
             var mappingConfig = new MapperConfiguration(config =>
             {
-                config.CreateMap<Company , CompanyConfigsDto>().ReverseMap();
+                config.CreateMap<Company , CompanyDto>().ReverseMap();
+                config.CreateMap<ProductSpec , ProductSpecDto>().ReverseMap();
+                config.CreateMap<ProductSpecDetails , ProductSpecDetailsDto>().ReverseMap();
+                config.CreateMap<Discount , DiscountDto>().ReverseMap();
             
 
             });

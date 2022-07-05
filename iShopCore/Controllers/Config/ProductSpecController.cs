@@ -6,42 +6,42 @@ namespace iShopCore.Controllers.Config
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CompanyConfigController : ControllerBase
+    public class ProductSpecController : ControllerBase
     {
-        private readonly ICompanyConfigService _companyConfigsService;
-        public CompanyConfigController( ICompanyConfigService companyConfigService)
+        private readonly IProductSpecService _productSpecService;
+        public ProductSpecController(IProductSpecService productSpecService)
         {
-             _companyConfigsService=companyConfigService;
+            _productSpecService = productSpecService;
         }
 
         [HttpGet]
         [Route("")]
         public async Task<IActionResult> GetAll()
         {
-            var result = await _companyConfigsService.GetAllAsync();
+            var result = await _productSpecService.GetAllAsync();
             return Ok(result);
         }
         [HttpGet]
-        [Route("getbyid")]
+        [Route("get/{id:int}")]
         public async Task<IActionResult> GetById(long id)
         {
-            var result = await _companyConfigsService.GetAsync(id);
+            var result = await _productSpecService.GetAsync(id);
             return Ok(result);
         }
 
         [HttpPost]
         [Route("add")]
-        public async Task<IActionResult> Add(CompanyConfigsDto model)
+        public async Task<IActionResult> Add(ProductSpecDto model)
         {
-            var response =  await _companyConfigsService.AddAsync(model);
+            var response =  await _productSpecService.AddAsync(model);
             return Ok(new { data = response});
         }
 
         [HttpPost]
         [Route("edit")]
-        public async Task<IActionResult> Update(CompanyConfigsDto model)
+        public async Task<IActionResult> Update(ProductSpecDto model)
         {
-            var response = await _companyConfigsService.UpdateAsync(model);
+            var response = await _productSpecService.UpdateAsync(model);
             return Ok(new { data = response });
         }
 
@@ -49,7 +49,7 @@ namespace iShopCore.Controllers.Config
         [Route("delete/{id:int}")]
         public async Task<IActionResult> Delete(long id)
         {
-            var response =  await _companyConfigsService.DeleteAsync(id);
+            var response =  await _productSpecService.DeleteAsync(id);
             return Ok(new { data = response });
         }
     }

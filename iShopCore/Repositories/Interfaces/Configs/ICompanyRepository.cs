@@ -2,7 +2,7 @@
 
 namespace iShopCore.Repositories.Interfaces.Configs
 {
-    public interface ICompanyConfigsRepository
+    public interface ICompanyRepository
     {
         Task<IEnumerable<Company>> GetAllAsync();
         Task<Company> GetAsync(long id);

@@ -6,12 +6,12 @@ namespace iShopCore.Services.Interfaces.Configs
 {
    
 
-    public interface ICompanyConfigService
+    public interface ICompanyService
     {
         Task<IEnumerable<Company>> GetAllAsync();
         Task<Company> GetAsync(long id);
-        Task<Company> AddAsync(CompanyConfigsDto companyConfigsDto);
-        Task<Company> UpdateAsync(CompanyConfigsDto companyConfigsDto);
+        Task<Company> AddAsync(CompanyDto companyConfigsDto);
+        Task<Company> UpdateAsync(CompanyDto companyConfigsDto);
         Task<long> DeleteAsync(long id);
 
 

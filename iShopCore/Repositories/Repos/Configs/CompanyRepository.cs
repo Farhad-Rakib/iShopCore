@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace iShopCore.Repositories.Repos.Configs
 {
-    public class CompanyConfigsRepository : ICompanyConfigsRepository
+    public class CompanyRepository : ICompanyRepository
     {
         private IBaseRepository<Company> _baseRepository;
 
-        public CompanyConfigsRepository(IBaseRepository<Company> baseRepository)
+        public CompanyRepository(IBaseRepository<Company> baseRepository)
         {
             _baseRepository = baseRepository;
         }

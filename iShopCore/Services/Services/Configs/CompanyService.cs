@@ -7,20 +7,20 @@ using iShopCore.Services.Interfaces.Configs;
 namespace iShopCore.Services.Services.Configs
 {
    
-    public class CompanyConfigService:ICompanyConfigService
+    public class CompanyService:ICompanyService
     {
-        private readonly ICompanyConfigsRepository _companyRepo;
+        private readonly ICompanyRepository _companyRepo;
         private readonly IMapper _mapper;
 
-        public CompanyConfigService(ICompanyConfigsRepository companyRepo,IMapper mapper)
+        public CompanyService(ICompanyRepository companyRepo,IMapper mapper)
         {
             _companyRepo = companyRepo;
             _mapper = mapper;
         }
 
-        public Task<Company> AddAsync(CompanyConfigsDto companyConfigsDto)
+        public Task<Company> AddAsync(CompanyDto companyDto)
         {
-            var company = _mapper.Map<Company>(companyConfigsDto);
+            var company = _mapper.Map<Company>(companyDto);
             return _companyRepo.AddAsync(company) ;
         }
 
@@ -39,7 +39,7 @@ namespace iShopCore.Services.Services.Configs
             return _companyRepo.GetAsync(id);
         }
 
-        public Task<Company> UpdateAsync(CompanyConfigsDto companyConfigsDto)
+        public Task<Company> UpdateAsync(CompanyDto companyConfigsDto)
         {
             var company = _mapper.Map<Company>(companyConfigsDto);
             return _companyRepo.UpdateAsync(company);

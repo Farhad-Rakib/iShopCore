@@ -1,6 +1,6 @@
 ﻿namespace iShopCore.Dtos.Configs
 {
-    public class CompanyConfigsDto:BaseDtos
+    public class CompanyDto:BaseDtos
     {
         public string Name { get; set; }
 
