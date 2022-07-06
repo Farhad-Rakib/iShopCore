@@ -45,12 +45,19 @@ var builder = WebApplication.CreateBuilder(args);
     builder.Services.AddScoped<IProductSpecService, ProductSpecService>();
     builder.Services.AddScoped<IProductSpecDeatilsService, ProductSpecDetailsService>();
     builder.Services.AddScoped<IDiscountService, DiscountService>();
+    builder.Services.AddScoped<IPaymentGatewayApiService, PaymentGatewayApiService>();
+    builder.Services.AddScoped<IBankService, BankService>();
+    builder.Services.AddScoped<IBankAccountService, BankAccountService>();
 
 
     builder.Services.AddScoped<ICompanyRepository, CompanyRepository>();
     builder.Services.AddScoped<IProductSpecRepository, ProductSpecRepository>();
     builder.Services.AddScoped<IProductSpecDetailsRepository, ProductSpecDetailsRepository>();
     builder.Services.AddScoped<IDiscountRepository, DiscountRepository>();
+    builder.Services.AddScoped<IPaymentGatewayApiRepository, PaymentGatewayApiRepository>();
+    builder.Services.AddScoped<IBankRepository, BankRepository>();
+    builder.Services.AddScoped<IBankAccountRepository, BankAccountRepository>();
+
 
 }
 
