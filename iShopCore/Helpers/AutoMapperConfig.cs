@@ -14,6 +14,7 @@ namespace iShopCore.Helpers
                 config.CreateMap<ProductSpec , ProductSpecDto>().ReverseMap();
                 config.CreateMap<ProductSpecDetails , ProductSpecDetailsDto>().ReverseMap();
                 config.CreateMap<Discount , DiscountDto>().ReverseMap();
+                config.CreateMap<DeliveryAgent , DeliveryAgentDto>().ReverseMap();
             
 
             });
