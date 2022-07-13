@@ -22,6 +22,8 @@ public class ApplicationDbContext : DbContext
     public DbSet<PaymentGatewayAPI> PaymentGatewayAPIs { get; set; }
     public DbSet<Bank> Banks { get; set; }
     public DbSet<BankAccount> BankAccounts { get; set; }
+    public DbSet<DeliveryAgent> DeliveryAgents { get; set; }
+    public DbSet<AccountType> AccountTypes { get; set; }
     
 }
 

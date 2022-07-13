@@ -49,6 +49,7 @@ var builder = WebApplication.CreateBuilder(args);
     builder.Services.AddScoped<IBankService, BankService>();
     builder.Services.AddScoped<IBankAccountService, BankAccountService>();
     builder.Services.AddScoped<IDeliveryAgentService, DeliveryAgentService>();
+    builder.Services.AddScoped<IAccountTypeService, AccountTypeService>();
 
 
     builder.Services.AddScoped<ICompanyRepository, CompanyRepository>();
@@ -59,6 +60,7 @@ var builder = WebApplication.CreateBuilder(args);
     builder.Services.AddScoped<IBankRepository, BankRepository>();
     builder.Services.AddScoped<IBankAccountRepository, BankAccountRepository>();
     builder.Services.AddScoped<IDeliveryAgentRepository, DeliveryAgentRepository>();
+    builder.Services.AddScoped<IAccountTypeRepository, AccountTypeRepository>();
 
 
 }
