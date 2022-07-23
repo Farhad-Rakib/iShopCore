@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Development\\iShopCore\\iShopCore\\iShopCore.csproj": {}
+    "D:\\Personal Development\\iShopCore\\iShopCore\\iShopCore.csproj": {}
   },
   "projects": {
-    "D:\\Development\\iShopCore\\iShopCore\\iShopCore.csproj": {
+    "D:\\Personal Development\\iShopCore\\iShopCore\\iShopCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\iShopCore\\iShopCore\\iShopCore.csproj",
+        "projectUniqueName": "D:\\Personal Development\\iShopCore\\iShopCore\\iShopCore.csproj",
         "projectName": "iShopCore",
-        "projectPath": "D:\\Development\\iShopCore\\iShopCore\\iShopCore.csproj",
-        "packagesPath": "C:\\Users\\MN\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\iShopCore\\iShopCore\\obj\\",
+        "projectPath": "D:\\Personal Development\\iShopCore\\iShopCore\\iShopCore.csproj",
+        "packagesPath": "C:\\Users\\farhad\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal Development\\iShopCore\\iShopCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\MN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\farhad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
